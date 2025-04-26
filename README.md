@@ -28,6 +28,8 @@ bikes_df = pd.read_csv("C:/Users/HP/Downloads/dowlnoad 2/bikes.csv")
 bikes_df.head()    
 
 ```
+![pandas screenshot](https://github.com/user-attachments/assets/1d1b3f7b-75f4-4a14-a483-35cb43d37aa3)
+
 
 ####  Data Modification
 ```Python
@@ -65,6 +67,10 @@ bikes_df["Profit"] = bikes_df["SalesRevenue"] - bikes_df["TotalCostPrice"]
 bikes_df.head()
 ```
 
+
+![data modification screenshot](https://github.com/user-attachments/assets/c136a477-e6ca-45a2-82a5-c81a35565c6b)
+
+
 ## DATA ANALYSIS 
 #### DATA FILTERING 
 
@@ -81,6 +87,9 @@ bike_in_the_US.head()
 
 ```
 
+![data filtering screenshot](https://github.com/user-attachments/assets/b5fd05b3-2a0d-4c34-bf89-826fffb2eb04)
+
+
 #### DATA AGGREGATION
 
 ```Python
@@ -91,6 +100,9 @@ total_profits_by_states = bike_in_the_US.pivot_table(values = "Profit", index = 
 total_profits_by_states
 ```
 
+![data aggregation screenshot](https://github.com/user-attachments/assets/5caf281a-2921-48ff-8eb4-9c4cfccc8d38)
+
+
 #### DATA SORTING 
 ```Python
 # Sorting the aggregated data 
@@ -99,6 +111,9 @@ total_profits_by_states
 total_profits_by_states.sort_values("Profit", ascending = False)
 
 ```
+
+![data sorting screenshot](https://github.com/user-attachments/assets/eb154f2d-f191-44d9-9d3e-e47f5bdfd824)
+
 
 #### RESULT 
 ```Pthon
@@ -111,6 +126,7 @@ top_5_most_profitable_states_USA = total_profits_by_states.sort_values("Profit",
 top_5_most_profitable_states_USA
 ```
 
+![result screenshot](https://github.com/user-attachments/assets/ada685eb-d08a-4f08-b665-2efee9e1a3a2)
 
 ## DATA VISUALIZATION 
 
