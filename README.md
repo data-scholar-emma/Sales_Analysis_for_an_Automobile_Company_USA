@@ -24,11 +24,15 @@ print("The packages have been successfully imported")
 ```Python
 # reading the sales data into a pandas dataframe
 
-bikes_df = pd.read_csv("C:/Users/HP/Downloads/dowlnoad 2/bikes.csv")
-bikes_df.head()    
+bikes_df.head() bikes_df = pd.read_csv("C:/Users/User/Downloads/bikes.csv")
+bikes_df.head()     
 
 ```
-![pandas screenshot](https://github.com/user-attachments/assets/1d1b3f7b-75f4-4a14-a483-35cb43d37aa3)
+
+
+
+<img width="914" alt="DATA LOADING" src="https://github.com/user-attachments/assets/2469c2ef-0077-4b43-ba05-97e4d6328f67" />
+
 
 
 ####  Data Modification
